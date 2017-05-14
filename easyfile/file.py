@@ -7,9 +7,8 @@ def write_data(data,file,before,after):
         file.write(before + str(data)+ after)
     if type(data) is list:
         if type(data[0]) is not list:
-            file.write(before+'\n'+str(data)+'\n'+after)
+            file.write(before+'\n'+str(data)+after)
         elif type(data[0]) is list: #2D array
-            print data
             file.write(before+'\n')
             for row in data:
                 file.write(str(row) + '\n')
