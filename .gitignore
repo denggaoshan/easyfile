@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+test.py
+testdatas/case1.string
+testdatas/test1.array
+log
